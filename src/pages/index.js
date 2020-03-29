@@ -8,11 +8,13 @@ import { posts } from "../assets/content.js"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home"/>
-    <Hero/>
-    {posts.map((item) =>
-      <Post post={item}/>)}
-    <Footer/>
+      <SEO title="Home"/>
+      <Hero/>
+      <section id="postSection">
+          {posts.map((item) =>
+            <Post post={item}/>)}
+      </section>
+      <Footer/>
   </Layout>
 )
 

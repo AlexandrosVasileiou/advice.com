@@ -5,8 +5,8 @@ const Post = (props) => {
   return (
     <article>
       <h2>{props.post.title}</h2>
-      <p className="tag">{props.post.tag}</p>
-      <p className="content">{props.post.content}</p>
+      <h3>{props.post.tag}</h3>
+      <p>{props.post.content}</p>
     </article>
   )
 }

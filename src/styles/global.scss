@@ -3,3 +3,32 @@ html {
   color: #d5d5d6;
   font-family: "Jet Brains Mono Regular", serif;
 }
+
+h1 {
+  font-size: 14vh;
+  font-family: "Jet Brains Mono Medium", serif;
+}
+
+h2 {
+  font-size: 4vh;
+}
+
+h3 {
+  font-size: 2vh;
+}
+
+p {
+  font-size: 3vh;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}

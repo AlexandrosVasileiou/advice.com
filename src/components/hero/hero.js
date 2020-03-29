@@ -6,7 +6,7 @@ const Hero = () => {
     <section>
       <header>
         <h1>Advice Worth Giving</h1>
-        <h5>The best advice is this: Don’t take advice and don’t give advice. <br></br>~Author Unknown</h5>
+        <h2>The best advice is this: Don’t take advice and don’t give advice. <br></br>~Author Unknown</h2>
       </header>
       <div className="footer">
         <a className="button button-primary" href="#">Continue reading</a>

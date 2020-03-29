@@ -1,23 +1,19 @@
 article {
-  min-height: 70vh;
-  max-width: 36em;
-  margin: 0 auto;
-  padding: 5em;
-
   h2 {
     color: white;
-    font-family: "Jet Brains Mono Bold", serif;
-    font-size: 2em;
-  }
-
-  .tag {
-    font-size: 1em;
-    font-family: "Jet Brains Mono Italic", serif;
-  }
-
-  .content {
-    font-size: 1.5em;
-    font-family: "Jet Brains Mono Medium", serif;
   }
 }
+
+@media screen and (min-width: 767px) {
+  article {
+    margin: 5em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  article {
+    margin: 1em;
+  }
+}
+
 
