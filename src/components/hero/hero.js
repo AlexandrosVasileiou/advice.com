@@ -3,14 +3,14 @@ import "./hero.scss"
 
 const Hero = () => {
   return (
-    <section class="hero">
-      <header class="header">
-        <h1 class="hero-title">Advice Worth Giving</h1>
-        <p>Try to be a rainbow in someone's cloud.</p>
+    <section>
+      <header>
+        <h1>Advice Worth Giving</h1>
+        <h5>The best advice is this: Don’t take advice and don’t give advice. <br></br>~Author Unknown</h5>
       </header>
-      <div class="footer">
-        <a class="button button-primary" href="#">button one</a>
-        <a class="button" href="#">button two</a>
+      <div className="footer">
+        <a className="button button-primary" href="#">Continue reading</a>
+        <a className="button" href="#">Buy ebook</a>
       </div>
     </section>
   )
