@@ -11,6 +11,7 @@ const Post = (props) => {
       <h2>{props.post.title}</h2>
       <h3>{props.post.tag}</h3>
       <p dangerouslySetInnerHTML={createMarkup(props.post.content)}/>
+      <hr></hr>
     </article>
   )
 }
