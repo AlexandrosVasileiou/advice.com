@@ -2,6 +2,14 @@ article {
   h2 {
     color: white;
   }
+
+  hr {
+    width: 20vh;
+    height: 1px;
+    border: none;
+    background-color: grey;
+    margin: 10vh auto auto 0;
+  }
 }
 
 @media screen and (min-width: 767px) {

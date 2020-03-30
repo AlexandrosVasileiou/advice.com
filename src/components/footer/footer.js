@@ -1,10 +1,12 @@
 import React from "react"
 import "./footer.scss"
+import { Link } from "gatsby"
 
 const Footer = () => {
   return (
     <footer>
-      © {new Date().getFullYear()} Rene Gens
+      <div>© {new Date().getFullYear()} Rene Gens</div>
+      <Link className="button button-primary" to="/random">Get a random advice</Link>
     </footer>
   )
 }
