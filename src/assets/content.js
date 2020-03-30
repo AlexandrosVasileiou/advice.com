@@ -12,12 +12,12 @@ export let posts = [
   {
     title: "Sparsity for things",
     tag: "consuming",
-    content: "To quote fight club: <br>We buy things we don’t need, to impress people we don’t like.",
+    content: "To quote fight club:<br>We buy things we don’t need, to impress people we don’t like.",
   },
   {
     title: " Intermittent fasting is the way to go",
     tag: "health",
-    content: "This advice needs to start with a disclaimer, if you have a medical condition, you are very lean, a bearing woman or in general have any medical condition consult with your physician first. <p>Fasting is the process of depriving your body of food during a particular window of time which is usually at least 16 hours and at most 24 hours. In this time frame you may not eat anything or drink something that has calories (coffee, water is acceptable). The benefits of this to give your body a break from metabolising food all day, it helps to kick your body into ketosis and starts the autophagy procedure.</p> <br>The gist is don’t eat it will make you leaner, look younger and may prevent some forms of cancer.",
+    content: "This advice needs to start with a disclaimer, if you have a medical condition, you are very lean, a bearing woman or in general have any medical condition consult with your physician first. <br><br>Fasting is the process of depriving your body of food during a particular window of time which is usually at least 16 hours and at most 24 hours. In this time frame you may not eat anything or drink something that has calories (coffee, water is acceptable). The benefits of this to give your body a break from metabolising food all day, it helps to kick your body into ketosis and starts the autophagy procedure. <br><br>The gist is don’t eat it will make you leaner, look younger and may prevent some forms of cancer.",
   },
   {
     title: "Sleep is good for you",
