@@ -2,8 +2,8 @@ import React from "react"
 import PropTypes from "prop-types"
 
 const centerContent = {
-  height: "100vh",
   display: "flex",
+  height: "80vh",
   flexDirection: "column",
   justifyContent: "center",
   alignItems: "center",

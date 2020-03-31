@@ -1,18 +1,16 @@
 import React from "react"
-import ViewPortCentered from "../layouts/viewport-centered"
-import SEO from "../seo"
-import Layout from "../layouts/layout"
+
+const center = {
+  textAlign: "center",
+}
 
 const BuyThankYou = () => {
   return (
-    <Layout>
-      <SEO title="Buy eBook"/>
-      <ViewPortCentered>
-        <h1>Thank you</h1>
-        <h2>If you have gotten value out of this site consider buying the ebook</h2>
-        <p>Disclaimer: The ebook you are going to purchase will have the same content as this site.</p>
-      </ViewPortCentered>
-    </Layout>
+    <>
+      <h1 style={center}>Thank you</h1>
+      <h2 style={center}>If you have gotten value out of this site consider buying the ebook</h2>
+      <p style={center}>Disclaimer: The ebook you are going to purchase will have the same content as this site.</p>
+    </>
   )
 }
 

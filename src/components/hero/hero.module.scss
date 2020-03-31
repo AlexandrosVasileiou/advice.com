@@ -1,0 +1,50 @@
+.heroSection {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-bottom: 200px;
+  margin-right: 20px;
+  margin-left: 20px;
+
+  .header {
+    text-align: right;
+
+    .title {
+      color: white;
+      font-size: calc(6rem + 3.6vw);
+      font-family: "Jet Brains Mono Medium", serif;
+    }
+
+    .subTitle {
+      margin-top: 5rem;
+      font-size: calc(0.8rem + 3.6vw);
+    }
+  }
+}
+
+.bottom {
+  display: flex;
+  align-self: flex-end;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.button {
+  text-align: left;
+  padding: .5rem .67rem;
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border: .1rem solid white;
+}
+
+.buttonPrimary {
+  color: black;
+  background-color: white;
+  text-align: left;
+  padding: .5rem .67rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border: .1rem solid white;
+}
