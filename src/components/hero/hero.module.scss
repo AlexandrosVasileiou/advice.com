@@ -1,13 +1,14 @@
 .heroSection {
   height: 100vh;
+  max-width: 60vw;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  margin-bottom: 200px;
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-left: auto;
+  margin-right: 24px;
 
   .header {
+    align-items: end;
     text-align: right;
 
     .title {
@@ -47,4 +48,44 @@
   font-size: 1.5rem;
   text-decoration: none;
   border: .1rem solid white;
+}
+
+//phone
+@media (max-width: 552px) {
+
+  .postTitle {
+    font-size: 30px;
+  }
+
+  .postParagraph {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+}
+
+//destkop
+@media (min-width: 1080px) {
+
+  .postTitle {
+    font-size: 34px;
+  }
+
+  .postParagraph {
+    font-size: 21px;
+  }
+
+}
+
+//tablet
+@media(min-width: 728px) and (max-width: 910px) {
+
+  .postTitle {
+    font-size: 34px;
+  }
+
+  .postParagraph {
+    font-size: 21px;
+  }
+
 }

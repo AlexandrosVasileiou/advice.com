@@ -2,8 +2,8 @@ import React, { Component } from "react"
 import SEO from "../components/seo"
 import Post from "../components/post/post"
 import { posts } from "../assets/content.js"
-import ViewPortCentered from "../components/layouts/viewport-centered"
 import Layout from "../components/layouts/layout"
+import Container from "../components/layouts/container"
 
 
 export default class RandomPage extends Component {
@@ -14,9 +14,9 @@ export default class RandomPage extends Component {
     return (
       <Layout>
         <SEO title="Random advice of the day"/>
-        <ViewPortCentered>
+        <Container>
           <Post post={this.randomPost}/>
-        </ViewPortCentered>
+        </Container>
       </Layout>)
   }
 }
