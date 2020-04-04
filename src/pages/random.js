@@ -1,19 +1,22 @@
-import React from "react"
+import React, { Component } from "react"
 import SEO from "../components/seo"
 import Post from "../components/post/post"
 import { posts } from "../assets/content.js"
-import ViewPortCentered from "../components/layouts/viewport-centered"
 import Layout from "../components/layouts/layout"
+import Container from "../components/layouts/container"
 
-const randomPost = posts[Math.floor(Math.random() * posts.length)]
 
-const RandomPage = () => (
-  <Layout>
-    <SEO title="Random advice of the day"/>
-    <ViewPortCentered>
-      <Post post={randomPost}/>
-    </ViewPortCentered>
-  </Layout>
-)
+export default class RandomPage extends Component {
 
-export default RandomPage
+  randomPost = posts[Math.floor(Math.random() * posts.length)]
+
+  render() {
+    return (
+      <Layout>
+        <SEO title="Random advice of the day"/>
+        <Container>
+          <Post post={this.randomPost}/>
+        </Container>
+      </Layout>)
+  }
+}
