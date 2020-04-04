@@ -4,17 +4,24 @@ import SEO from "../components/seo"
 import Hero from "../components/hero/hero"
 import Post from "../components/post/post"
 import { posts } from "../assets/content.js"
-import Footer from "../components/footer/footer"
+import Container from "../components/layouts/container"
+
+
+const margin = {
+  marginRight: "20px",
+  marginLeft: "20px",
+}
 
 const IndexPage = () => (
   <Layout>
-        <SEO title="Home"/>
-        <Hero/>
-        <section id="book">
-              {posts.map((item) =>
-                <Post post={item}/>)}
-        </section>
-        <Footer/>
+    <SEO title="Home"/>
+    <Hero/>
+    <Container>
+      <main style={margin} id="book">
+        {posts.map((item) =>
+          <Post key={item.id} post={item}/>)}
+      </main>
+    </Container>
   </Layout>
 )
 

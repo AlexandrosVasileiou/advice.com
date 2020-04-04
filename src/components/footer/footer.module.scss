@@ -1,0 +1,17 @@
+.footer {
+  height: auto;
+  background-color: black;
+  display: flex;
+  padding: 1em;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button-primary {
+  color: black;
+  background-color: white;
+  text-align: center;
+  padding: .5em .67em;
+  text-decoration: none;
+  border: .1em solid white;
+}
