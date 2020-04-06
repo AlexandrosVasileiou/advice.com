@@ -1,15 +1,44 @@
-html, body {
+body {
   background-color: #191d27;
   color: #d5d5d6;
   font-family: "Libre Baskerville Regular", serif;
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
 }
 
-.muted-text {
-  color: #7f8ea3;
+h1, h2, h3, h4, h5, h6 p {
+  margin: 0;
+  padding: 0;
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/* Medium devices (landscape tablets, 768px and up) */
-/* Large devices (laptops/desktops, 992px and up) */
+h1 {
+  color: white;
+  font-size: 30px;
+  font-weight: normal;
+}
 
-/*# sourceMappingURL=global.css.map */
+h3 {
+  font-size: 16px;
+  letter-spacing: 3px;
+  font-weight: normal;
+}
+
+p {
+  font-weight: 300;
+  font-size: 21px;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 21px;
+  }
+
+  p {
+    font-size: 24px;
+  }
+}
