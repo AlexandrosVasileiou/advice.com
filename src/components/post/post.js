@@ -26,9 +26,7 @@ const Post = (props) => {
         align="start"
         style={boldFont}
       >{props.post.title}</h1>
-      <MutedText>
-        <h3 align="start">{props.post.tag}</h3>
-      </MutedText>
+      <h3 align="start"><MutedText text={props.post.tag}/></h3>
       <p dangerouslySetInnerHTML={createMarkup(props.post.content)}/>
       <hr style={divider}/>
     </article>

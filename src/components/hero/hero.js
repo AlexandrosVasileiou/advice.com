@@ -12,7 +12,7 @@ const Hero = () => {
         <header className={styles.header}>
           <Title title={"Advice worth giving"}/>
           <div className={styles.subTitle}>The best advice is this: <br/>Don’t take advice and don’t give advice.
-            <br/><MutedText>Author Unknown</MutedText></div>
+            <br/><MutedText text={"Author Unknown"}/></div>
         </header>
         <div className={styles.buttonGroup}>
           <a className={`${styles.button} ${styles.buttonPrimary}`} href="#book">Continue reading</a>
