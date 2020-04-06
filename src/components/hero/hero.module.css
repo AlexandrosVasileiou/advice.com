@@ -1,0 +1,79 @@
+.heroSection {
+  height: 100vh;
+  max-width: 60vw;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: 24px;
+}
+.heroSection .header {
+  align-items: end;
+  text-align: right;
+}
+.heroSection .header .title {
+  color: white;
+  font-size: calc(6rem + 3.6vw);
+  font-family: "Jet Brains Mono Medium", serif;
+}
+.heroSection .header .subTitle {
+  margin-top: 5rem;
+  font-size: calc(0.8rem + 3.6vw);
+}
+
+.bottom {
+  display: flex;
+  align-self: flex-end;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.button {
+  text-align: left;
+  padding: 0.5rem 0.67rem;
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border: 0.1rem solid white;
+}
+
+.buttonPrimary {
+  color: black;
+  background-color: white;
+  text-align: left;
+  padding: 0.5rem 0.67rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border: 0.1rem solid white;
+}
+
+@media (max-width: 552px) {
+  .postTitle {
+    font-size: 30px;
+  }
+
+  .postParagraph {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+@media (min-width: 1080px) {
+  .postTitle {
+    font-size: 34px;
+  }
+
+  .postParagraph {
+    font-size: 21px;
+  }
+}
+@media (min-width: 728px) and (max-width: 910px) {
+  .postTitle {
+    font-size: 34px;
+  }
+
+  .postParagraph {
+    font-size: 21px;
+  }
+}
+
+/*# sourceMappingURL=hero.module.css.map */

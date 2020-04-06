@@ -1,0 +1,19 @@
+.footer {
+  height: auto;
+  background-color: black;
+  display: flex;
+  padding: 1em;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button-primary {
+  color: black;
+  background-color: white;
+  text-align: center;
+  padding: 0.5em 0.67em;
+  text-decoration: none;
+  border: 0.1em solid white;
+}
+
+/*# sourceMappingURL=footer.module.css.map */
