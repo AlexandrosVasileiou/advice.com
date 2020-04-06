@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Libre Baskerville Regular";
+  src: url("../fonts/LibreBaskerville-Regular.ttf");
+}
+@font-face {
+  font-family: "Libre Baskerville Bold";
+  src: url("../fonts/LibreBaskerville-Bold.ttf");
+}
+@font-face {
+  font-family: "Libre Baskerville Italic";
+  src: url("../fonts/LibreBaskerville-Italic.ttf");
+}
+
+/*# sourceMappingURL=typography.css.map */

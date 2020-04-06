@@ -1,0 +1,15 @@
+html, body {
+  background-color: #191d27;
+  color: #d5d5d6;
+  font-family: "Libre Baskerville Regular", serif;
+}
+
+.muted-text {
+  color: #7f8ea3;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+
+/*# sourceMappingURL=global.css.map */
