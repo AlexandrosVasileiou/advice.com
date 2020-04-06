@@ -6,7 +6,8 @@ const divider = {
   height: "1px",
   border: "none",
   backgroundColor: "#7f8ea3",
-  margin: "30px 0 40px 0",
+  marginLeft: "0",
+  marginTop: "30px",
 }
 
 const boldFont = {
@@ -20,7 +21,7 @@ function createMarkup(content) {
 
 const Post = (props) => {
   return (
-    <article>
+    <article style={{ marginBottom: "150px" }}>
       <h1
         align="start"
         style={boldFont}

@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 
 const Title = ({ title }) => {
   return (
-    <div className={styles.title}>{title}</div>
+    <div className={styles.text}>{title}</div>
   )
 }
 
