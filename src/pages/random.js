@@ -12,12 +12,6 @@ export default class RandomPage extends Component {
     randomNumber: this.getRandomNumberForPost(),
   }
 
-  componentDidMount() {
-    this.setState({
-      randomNumber: this.getRandomNumberForPost(),
-    })
-  }
-
   getRandomNumberForPost() {
     return Math.floor(Math.random() * posts.length)
   }
