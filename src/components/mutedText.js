@@ -1,7 +1,6 @@
 import React from "react"
 
 const style = {
-  textAlign: "center",
   color: "#7f8ea3",
 }
 
