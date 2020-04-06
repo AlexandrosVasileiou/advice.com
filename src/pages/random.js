@@ -8,7 +8,19 @@ import ViewPortCentered from "../components/layouts/viewport-centered"
 
 export default class RandomPage extends Component {
 
-  randomPost = posts[Math.floor(Math.random() * posts.length)]
+  state = {
+    randomNumber: this.getRandomNumberForPost(),
+  }
+
+  componentDidMount() {
+    this.setState({
+      randomNumber: this.getRandomNumberForPost(),
+    })
+  }
+
+  getRandomNumberForPost() {
+    return Math.floor(Math.random() * posts.length)
+  }
 
   render() {
     return (
@@ -16,7 +28,7 @@ export default class RandomPage extends Component {
         <SEO title="Random advice of the day"/>
         <Container>
           <ViewPortCentered>
-            <Post post={this.randomPost}/>
+            <Post post={posts[this.state.randomNumber]}/>
           </ViewPortCentered>
         </Container>
       </Layout>

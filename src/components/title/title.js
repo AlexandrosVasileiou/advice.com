@@ -2,14 +2,14 @@ import React from "react"
 import styles from "./title.module.css"
 import PropTypes from "prop-types"
 
-const Title = ({ title }) => {
+const Title = ({ text }) => {
   return (
-    <div className={styles.text}>{title}</div>
+    <div className={styles.text}>{text}</div>
   )
 }
 
 Title.propTypes = {
-  title: PropTypes.node.isRequired,
+  text: PropTypes.string.isRequired,
 }
 
 export default Title
