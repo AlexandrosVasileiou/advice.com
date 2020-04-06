@@ -1,0 +1,14 @@
+.text {
+  color: white;
+  text-align: right;
+  line-height: 1.2;
+  font-size: 65px;
+  word-spacing: 100vw;
+}
+
+@media (min-width: 768px) {
+  .text {
+    line-height: 1;
+    font-size: 120px;
+  }
+}
