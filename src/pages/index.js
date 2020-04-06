@@ -1,7 +1,6 @@
 import React from "react"
 import Layout from "../components/layouts/layout"
 import SEO from "../components/seo"
-import Hero from "../components/hero/hero"
 import Post from "../components/post/post"
 import { posts } from "../assets/content.js"
 import Container from "../components/layouts/container"
@@ -9,7 +8,7 @@ import Container from "../components/layouts/container"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home"/>
-    <Hero/>
+   {/* <Hero/>*/}
     <Container>
       <main id="book">
         {posts.map((item) =>
