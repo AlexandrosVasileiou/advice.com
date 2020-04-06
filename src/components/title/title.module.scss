@@ -1,0 +1,27 @@
+.title {
+  color: white;
+  text-align: right;
+}
+
+//destkop
+@media (min-width: 1080px) {
+  .title {
+    font-size: 34px;
+  }
+}
+
+//tablet
+@media(min-width: 728px) and (max-width: 910px) {
+  .title {
+    font-size: 34px;
+  }
+
+}
+
+//phone
+@media (max-width: 552px) {
+  .title {
+    font-size: 30px;
+  }
+
+}

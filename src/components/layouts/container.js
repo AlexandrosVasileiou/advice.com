@@ -1,15 +1,10 @@
 import React from "react"
 import PropTypes from "prop-types"
-
-const body = {
-  maxWidth: "1080px",
-  padding: "24px",
-  margin: "0 auto",
-}
+import styles from "./container.module.scss"
 
 const Container = ({ children }) => {
   return (
-    <div style={body}>{children}</div>
+    <div className={styles.container}>{children}</div>
   )
 }
 
