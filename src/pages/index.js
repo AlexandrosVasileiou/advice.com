@@ -4,11 +4,12 @@ import SEO from "../components/seo"
 import Post from "../components/post/post"
 import { posts } from "../assets/content.js"
 import Container from "../components/layouts/container"
+import Hero from "../components/hero/hero"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home"/>
-   {/* <Hero/>*/}
+    <Hero/>
     <Container>
       <main id="book">
         {posts.map((item) =>
