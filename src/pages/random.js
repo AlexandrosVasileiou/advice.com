@@ -4,7 +4,7 @@ import Post from "../components/post/post"
 import { posts } from "../assets/content.js"
 import Layout from "../components/layouts/layout"
 import Container from "../components/layouts/container"
-
+import ViewPortCentered from "../components/layouts/viewport-centered"
 
 export default class RandomPage extends Component {
 
@@ -15,8 +15,11 @@ export default class RandomPage extends Component {
       <Layout>
         <SEO title="Random advice of the day"/>
         <Container>
-          <Post post={this.randomPost}/>
+          <ViewPortCentered>
+            <Post post={this.randomPost}/>
+          </ViewPortCentered>
         </Container>
-      </Layout>)
+      </Layout>
+    )
   }
 }
