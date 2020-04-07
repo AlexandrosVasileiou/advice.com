@@ -21,7 +21,7 @@ function createMarkup(content) {
 
 const Post = (props) => {
   return (
-    <article style={{ marginBottom: "150px" }}>
+    <div style={{ marginBottom: "150px" }}>
       <h1
         align="start"
         style={boldFont}
@@ -29,7 +29,7 @@ const Post = (props) => {
       <h3 align="start"><MutedText text={props.post.tag}/></h3>
       <p dangerouslySetInnerHTML={createMarkup(props.post.content)}/>
       <hr style={divider}/>
-    </article>
+    </div>
   )
 }
 

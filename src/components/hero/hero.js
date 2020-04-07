@@ -10,7 +10,7 @@ const Hero = () => {
     <section>
       <Div100vh className={styles.heroSection}>
         <header className={styles.header}>
-          <Title title={"Advice worth giving"}/>
+          <Title text={"Advice worth giving"}/>
           <div className={styles.subTitle}>The best advice is this: <br/>Don’t take advice and don’t give advice.
             <br/><MutedText text={"Author Unknown"}/></div>
         </header>

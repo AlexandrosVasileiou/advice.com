@@ -12,8 +12,10 @@ const IndexPage = () => (
     <Hero/>
     <Container>
       <main id="book">
-        {posts.map((item) =>
-          <Post key={item.id} post={item}/>)}
+        <article>
+          {posts.map((item) =>
+            <Post key={item.id} post={item}/>)}
+        </article>
       </main>
     </Container>
   </Layout>
