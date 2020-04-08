@@ -7,22 +7,28 @@ import Container from "../components/layouts/container"
 import ViewPortCentered from "../components/layouts/viewport-centered"
 
 export default class RandomPage extends Component {
-
-  state = {
-    randomNumber: this.getRandomNumberForPost(),
+  constructor(props) {
+    super(props)
+    this.state = {
+      randomNumber: this.getRandomNumberForPost(),
+    }
   }
 
   getRandomNumberForPost() {
     return Math.floor(Math.random() * posts.length)
   }
 
+  handleRandomClick() {
+    this.setState({ randomNumber: this.getRandomNumberForPost() })
+  }
+
   render() {
     return (
-      <Layout>
-        <SEO title="Random advice of the day"/>
+      <Layout onClick={this.handleRandomClick}>
+        <SEO title="Random advice of the day" />
         <Container>
           <ViewPortCentered>
-            <Post post={posts[this.state.randomNumber]}/>
+            <Post post={posts[this.state.randomNumber]} />
           </ViewPortCentered>
         </Container>
       </Layout>

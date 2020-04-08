@@ -1,11 +1,14 @@
 import React from "react"
+import { Link } from "gatsby"
 import styles from "./footer.module.css"
 
-const Footer = () => {
+const Footer = props => {
   return (
     <footer className={styles.footer}>
       <div>© {new Date().getFullYear()} Rene Gens</div>
-      <a className={styles.buttonPrimary} href="/random">Get a random advice</a>
+      <Link to="/random" className={styles.buttonPrimary} onClick={props.onClick}>
+        Get a random advice
+      </Link>
     </footer>
   )
 }

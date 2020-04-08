@@ -12,11 +12,11 @@ const siteContent = {
   flex: 1,
 }
 
-const Layout = ({ children }) => {
+const Layout = ({ children, onClick }) => {
   return (
     <div style={site}>
       <div style={siteContent}>{children}</div>
-      <Footer/>
+      <Footer onClick={onClick} />
     </div>
   )
 }
